@@ -11,7 +11,7 @@ export default function DashboardLayout({children,}: Readonly<{children: React.R
             <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
                 <Link href="/" className="flex items-center justify-center lg:justify-start gap-x-2">
                     <Image src="/logo.png" alt="logo" width={26} height={26} />
-                    <span className="hidden lg:block">SchooLama</span>
+                    <span className="hidden lg:block">SchoLama</span>
                 </Link>
                 <Menu />
             </div>
